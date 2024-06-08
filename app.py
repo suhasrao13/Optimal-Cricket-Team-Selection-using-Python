@@ -10,7 +10,7 @@ from t20bat import *
 from t20bowl import *
 from testbat import *
 from testbowl import *
-
+#connecting the sqllite3
 connection = sqlite3.connect('user_data.db')
 cursor = connection.cursor()
 
