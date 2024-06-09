@@ -18,7 +18,7 @@ command = """CREATE TABLE IF NOT EXISTS user(name TEXT, password TEXT, mobile TE
 cursor.execute(command)
 
 app = Flask(__name__)
-
+#mainflaskfunctioncall 
 @app.route('/')
 def index():
     return render_template('index.html')
