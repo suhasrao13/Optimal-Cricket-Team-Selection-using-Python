@@ -35,8 +35,8 @@ def custom_ODI_bats(bat, name, oname):
 
     # Check if there are enough batsmen against the specified opponent team for the given player's team
     if len(filtered_df) < num_players:
-        print(f"Error: There are not enough batsmen against {opponent_team} for {team}.")
-        return f"Error: There are not enough batsmen against {opponent_team} for {team}."
+        print(f"Error: There are not enough batsmens against {opponent_team} for {team}.")
+        return f"Error: There are not enough batsmens against {opponent_team} for {team}."
     else:
         # Feature selection
         X = filtered_df[['Mat', 'Ave', 'SR', 'Runs']]
